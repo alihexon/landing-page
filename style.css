@@ -56,3 +56,55 @@ header nav ul li a:hover {
   background-color: #2ecc71;
   color: #fff;
 }
+
+#first {
+  display: flex;
+  gap: 200px;
+  padding: 0 100px 0 0;
+  margin-top: 150px;
+}
+
+.left {
+  margin-top: 50px;
+}
+
+.left h1 {
+  font-weight: 400;
+}
+
+.left h1 span {
+  color: #2ecc71;
+}
+
+.left p {
+  color: #6d6d6d;
+  font-size: 1.1em;
+  width: 300px;
+  margin: 30px 0 50px 0;
+}
+
+.left .buttons {
+  display: flex;
+  gap: 40px;
+}
+
+.learn-btn {
+  font-size: 1em;
+  background-color: #2ecc71;
+  color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+}
+
+.learn-btn:hover {
+  background-color: #2bb564;
+  transform: translate(0, -25%);
+}
+
+.right img {
+  width: 600px;
+}
