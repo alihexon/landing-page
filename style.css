@@ -9,6 +9,7 @@
 
 .container {
   height: 100vh;
+  padding: 20px 180px;
 }
 
 header,
@@ -16,10 +17,6 @@ header nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-header {
-  padding: 20px 180px;
 }
 
 header .logo {
