@@ -9,7 +9,7 @@
 
 .container {
   height: 100vh;
-  padding: 20px 180px;
+  padding: 20px 400px;
 }
 
 header,
@@ -61,7 +61,7 @@ header nav ul li a:hover {
   display: flex;
   gap: 200px;
   padding: 0 100px 0 0;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 .left {
